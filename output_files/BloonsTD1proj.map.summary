@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri May 05 09:21:42 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : BloonsTD1proj
+Top-level Entity Name : bloonstd1
+Family : MAX 10
+Total logic elements : 34,894
+    Total combinational functions : 33,761
+    Dedicated logic registers : 7,725
+Total registers : 7725
+Total pins : 141
+Total virtual pins : 0
+Total memory bits : 429,312
+Embedded Multiplier 9-bit elements : 256
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0

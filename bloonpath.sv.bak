@@ -1,0 +1,78 @@
+module bloonpath(input logic Clk,
+				input logic bit21,
+                input logic [63:0]  blooncount,
+                 input logic [19:0] registerValue,
+                 input logic [10:0] startingTime,
+                 output logic [19:0] registerValueOut);
+
+logic [63:0] pixelcount;
+
+        always_ff @ (posedge Clk) 
+			begin
+		if(blooncount  % 1000000 == 0)
+			begin
+				if(pixelcount - startingTime >= 0 &&  pixelcount - startingTime < 2*32)
+				begin
+					registerValueOut[19:10] <= registerValue[19:10] + 1;
+					registerValueOut[9:0] <= 7 * 32;
+				end
+				//FIRST UP MOVEMENT
+				else if(2*32 <= pixelcount - startingTime && pixelcount - startingTime < 6*32)
+					registerValueOut[9:0] <= registerValue[9:0] - 1;
+					
+				//SECOND RIGHT MOVEMENT	
+				else if(6*32 <= pixelcount - startingTime && pixelcount - startingTime < 10*32)
+					registerValueOut[19:10] <= registerValue[19:10] + 1;
+					
+				//FIRST DOWN MOVEMENT
+				else if(10*32 <= pixelcount - startingTime && pixelcount - startingTime <  17 * 32)
+					registerValueOut[9:0] <= registerValue[9:0] + 1;
+
+				//FIRST LEFT MOVEMENT
+				else if(17*32 <= pixelcount - startingTime && pixelcount - startingTime <  22*32)
+					registerValueOut[19:10] <= registerValue[19:10] - 1;
+					
+				//SECOND DOWN MOVEMENT
+				else if(22*32 <= pixelcount - startingTime && pixelcount - startingTime <  25 * 32)
+					registerValueOut[9:0] <= registerValue[9:0] + 1;
+
+				//THIRD RIGHT MOVEMENT	
+				else if(25*32 <= pixelcount - startingTime && pixelcount - startingTime < 37*32)
+					registerValueOut[19:10] <= registerValue[19:10] + 1;
+
+				//SECOND UP MOVEMENT
+				else if(37*32 <= pixelcount - startingTime && pixelcount - startingTime <  41*32)
+					registerValueOut[9:0] <= registerValue[9:0] - 1;
+
+				//second LEFT MOVEMENT
+				else if(41*32 <= pixelcount - startingTime && pixelcount - startingTime <  45*32)
+					registerValueOut[19:10] <= registerValue[19:10] - 1;
+
+				//THIRD UP MOVEMENT
+				else if(45*32 <= pixelcount - startingTime && pixelcount - startingTime < 48*32)
+					registerValueOut[9:0] <= registerValue[9:0] - 1;
+
+				//FOURTH RIGHT MOVEMENT	
+				else if(48*32 <= pixelcount - startingTime && pixelcount - startingTime < 52*32)
+					registerValueOut[19:10] <= registerValue[19:10] + 1;
+
+				//FOURTH UP MOVEMENT
+				else if(52*32 <= pixelcount - startingTime && pixelcount - startingTime < 57*32)
+					registerValueOut[9:0] <= registerValue[9:0] - 1;
+                    
+				//THIRD LEFT MOVEMENT
+				else if(57*32 <= pixelcount - startingTime && pixelcount - startingTime < 62*32)
+					registerValueOut[19:10] <= registerValue[19:10] - 1;
+                    
+				//FIFTH UP MOVEMENT	
+				else if(62*32 <= pixelcount - startingTime && pixelcount - startingTime < 64*32)
+					registerValueOut[9:0] <= registerValue[9:0] - 1;
+
+
+				pixelcount <= pixelcount + 1;
+				registerValueOut[20] <= bit21;
+				end
+			end
+ 
+
+endmodule

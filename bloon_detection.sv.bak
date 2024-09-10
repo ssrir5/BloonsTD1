@@ -1,0 +1,50 @@
+module bloon_detection(input logic Clk, input logic [19:0] monkfileIn [7:0], input logic[20:0] bloonfileIn [7:0], 
+                                        output logic [19:0] monkfileOut [7:0], output logic [20:0] dartfileDest [7:0]);
+
+
+
+
+// logic [15:0] maxDist, temp;
+// logic [9:0] y_disp, x_disp;
+int [9:0] x_disp, y_disp, min_disp, temp_disp, temp_bloon, flag;
+
+always_ff @ (posedge Clk)
+    begin
+    
+    for( int i  = 0; i < 8; i ++)
+        begin
+        min_disp = 10000;
+        flag = 0;
+            for (int j = 0; j <  8; j ++)
+                begin
+                    // 64x64 pixel range for monkey
+                    if((monkfileIn[i][19:10] + 16) < (bloonfileIn[j][19:10]+64) && (monkfileIn[i][19:10]+16) > (bloonfile[j][19:10]-64))
+                    begin
+                        if((monkfileIn[i][9:0] + 16) < (bloonfileIn[j][9:0]+64) && (monkfileIn[i][9:0]+16) > (bloonfile[j][9:0]-64))
+                        begin
+                            flag = 1;
+                            x_disp = max(monkfileIn[i][19:10] - bloonfileIn[j][19:10], bloonfileIn[j][19:10] - monkfileIn[i][19:10]);
+                            y_disp = max(monkfileIn[i][9:0] - bloonfileIn[j][9:0], bloonfileIn[j][9:0] - monkfileIn[i][9:0]);
+                            temp_disp = x_disp * x_disp + y_disp * y_disp;
+                            if(temp_disp < min_disp)
+                                begin
+                                temp_bloon = j; //this is the bloon that is the closest
+                                end
+
+                        end   
+                    end
+                end
+            if(flag == 1) //this is when a monkey flags that there is a bloon in range
+                begin
+                monkfileOut[i][20] <= 1'b1;
+                dartfileDest[i] <= bloonfile[temp_bloon];
+                end
+            else
+                monkfileOut[i][20] <= 1'b0;
+                dartfileDest[i] <= 20'h0000;
+            
+        end
+        
+
+    end
+endmodule

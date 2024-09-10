@@ -1,0 +1,22 @@
+module bloon_distance(input logic Clk, input logic  [19:0] monkfileIn, input logic [19:0] bloonfileIn, output logic [19:0] temp_disp);
+// WHAT THIS DOES:
+
+// TAKES MONKEY LOCATION AND BALOON LOCATION _ CALCULATES DISTANCE SQUAREDD
+logic [9:0] x_disp, y_disp;
+always_ff @ (posedge Clk)
+begin
+
+    if(bloonfileIn[19:10] - monkfileIn[19:10] > 0) //we are just looking at the top left corner but should just be the same
+        x_disp = (bloonfileIn[19:10] - monkfileIn[19:10]);
+    else 
+        x_disp = (monkfileIn[19:10] - bloonfileIn[j][19:10]);
+
+    if(bloonfileIn[9:0] - monkfileIn[9:0] > 0) //we are just looking at the top left corner but should just be the same
+        y_disp = (bloonfileIn[9:0] - monkfileIn[9:0]);
+    else 
+        y_disp = (monkfileIn[9:0] - bloonfileIn[9:0]);
+
+    //x_disp^2 + y_disp^2 = temp_disp^2 dont need sqrt, just looking at whats smaller
+    temp_disp = x_disp*x_disp + y_disp*y_disp;
+end
+endmodule

@@ -1,0 +1,74 @@
+//-------------------------------------------------------------------------
+//    Color_Mapper.sv                                                    --
+//    Stephen Kempf                                                      --
+//    3-1-06                                                             --
+//                                                                       --
+//    Modified by David Kesler  07-16-2008                               --
+//    Translated by Joe Meng    07-07-2013                               --
+//                                                                       --
+//    Fall 2014 Distribution                                             --
+//                                                                       --
+//    For use with ECE 385 Lab 7                                         --
+//    University of Illinois ECE Department                              --
+//-------------------------------------------------------------------------
+
+
+module  color_mapper ( input        [9:0] MouseX, MouseY, DrawX, DrawY, MonkeyX, MonkeyY,
+							  input logic bg_data, monkey_data, pixel_clk, blank,
+                       output logic [7:0]  Red, Green, Blue
+						);
+					  
+	  
+always_ff @ (posedge pixel_clk)
+begin
+	if(blank)
+		begin
+			if(MouseX ==  DrawX && MouseY == DrawY)
+				begin
+					Red <= 8'hff;
+					Green <= 8'hf0; //this is the ball color, only first number matters
+					Blue <= 8'hff;
+				end
+			// else if(MonkeyX == DrawX && MonkeyY == DrawY) 
+			else if(MonkeyX <= DrawX  && DrawX <= (MonkeyX + 31) && MonkeyY <= DrawY && DrawY <= (MonkeyY + 31))
+				begin 
+						if(monkey_data)
+						begin
+							Red <= 8'h60;
+							Green <= 8'h30;
+							Blue <= 8'h30;
+						end
+						else
+						begin
+							Red <= 8'h00;
+							Green <= 8'hb0;
+							Blue <= 8'h00;
+						end
+
+				end
+			else
+				begin
+
+					if(bg_data)
+						begin
+							Red <= 8'h80;
+							Green <= 8'h80;
+							Blue <= 8'h80;
+						end
+					else
+						begin
+							Red <= 8'h00;
+							Green <= 8'hb0;
+							Blue <= 8'h00;
+						end
+				end
+		end
+	else
+		begin
+			Red <= 8'h00;
+			Green <= 8'h00;
+			Blue <= 8'h00;
+		end
+end
+    
+endmodule

@@ -1,0 +1,16 @@
+module life_counter (input logic Clk, input logic reset, input logic lost_life, output logic [7:0] lives);
+
+always_ff @ (posedge Clk)
+begin
+    if(reset)
+        lives <= 200;
+    always_ff @ (posedge lost_life)
+    begin
+        lives <= lives -1;
+    end
+end        
+    
+    
+    
+
+endmodule

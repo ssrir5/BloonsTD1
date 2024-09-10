@@ -1,0 +1,1220 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/shrey/Documents/GitHub/BloonsTD1/simulation/modelsim
+valtera_avalon_sc_fifo
+Z1 !s110 1682561324
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+I<3C]bo4QfmZ;h:7cGa@zM2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1682525569
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+Z4 L0 21
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1682561324.000000
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+Z7 o-vlog01compat -work bloonstd1_soc
+Z8 !s92 -vlog01compat -work bloonstd1_soc +incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules
+Z9 tCvgOpt 0
+valtera_reset_controller
+R1
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+I^Qg8dKHF46e;XCfFBbk;60
+R2
+R0
+Z10 w1682525570
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/altera_reset_controller.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/altera_reset_controller.v
+L0 42
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+R7
+R8
+R9
+valtera_reset_synchronizer
+R1
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+I_hX_Ll770;`4P5hnIiD_o0
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/altera_reset_synchronizer.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/altera_reset_synchronizer.v
+L0 24
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc
+R1
+!i10b 1
+!s100 o73Bz>89jV^HS5eAEZ_T;1
+Ib=WdmJWSUNe8Wnec1FV;62
+R2
+R0
+R3
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/bloonstd1_soc.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/bloonstd1_soc.v
+L0 6
+R5
+r1
+!s85 0
+31
+!s108 1682561323.000000
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/bloonstd1_soc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/bloonstd1_soc.v|
+!i113 1
+R7
+!s92 -vlog01compat -work bloonstd1_soc +incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis
+R9
+vbloonstd1_soc_accumulator
+Z11 !s110 1682561326
+!i10b 1
+!s100 i>heI^U86`<U;jn?QP9F=2
+I[3:m<MzbeaTi2BUf3OfHS0
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_accumulator.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_accumulator.v
+R4
+R5
+r1
+!s85 0
+31
+Z12 !s108 1682561326.000000
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_accumulator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_accumulator.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_hex_digits_pio
+R11
+!i10b 1
+!s100 P8Ib@8Sl[>lWcO`HO]:1C0
+IhaeYNV^I>0A@BlG74=1i]0
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_hex_digits_pio.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_hex_digits_pio.v
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_hex_digits_pio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_hex_digits_pio.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_jtag_uart_0
+R11
+!i10b 1
+!s100 8G3MN7He;OQHWgg:FBCja2
+I38e:iM;?FV`9fOMkN`J9o3
+R2
+R0
+R10
+Z13 8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_jtag_uart_0.v
+Z14 FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_jtag_uart_0.v
+L0 331
+R5
+r1
+!s85 0
+31
+R12
+Z15 !s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_jtag_uart_0.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_jtag_uart_0.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_jtag_uart_0_scfifo_r
+R11
+!i10b 1
+!s100 <J:OgZ=3G^MR_FlCChkdU3
+IMEQRO=Cm_z5eFzQ0[6NaI0
+R2
+R0
+R10
+R13
+R14
+L0 243
+R5
+r1
+!s85 0
+31
+R12
+R15
+R16
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_jtag_uart_0_scfifo_w
+R11
+!i10b 1
+!s100 ^HlkSP8fhhl9FN:>?[27^3
+I:O5DB?f`9_8Z:;5HFa2Fi0
+R2
+R0
+R10
+R13
+R14
+L0 78
+R5
+r1
+!s85 0
+31
+R12
+R15
+R16
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_jtag_uart_0_sim_scfifo_r
+R11
+!i10b 1
+!s100 IYgzYR1Bi_N<M;946@:8A1
+Iz9MjD==`ABk8FH`GAX^S_1
+R2
+R0
+R10
+R13
+R14
+L0 164
+R5
+r1
+!s85 0
+31
+R12
+R15
+R16
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_jtag_uart_0_sim_scfifo_w
+R11
+!i10b 1
+!s100 TY`EkB5XCcZLPF=D3okkj3
+Ia4MGX;mQX6`82Hg@4]77G1
+R2
+R0
+R10
+R13
+R14
+R4
+R5
+r1
+!s85 0
+31
+R12
+R15
+R16
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_key
+R11
+!i10b 1
+!s100 ]<b>cV>`VGIW1oj<N1aON1
+Iefef[OR?WLn^<6[Tmc?Al3
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_key.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_key.v
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_key.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_key.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_keycode
+R11
+!i10b 1
+!s100 G0PbMa:abY`2olSVnCl_F3
+IgfZb`3oWZI=KJJHRJXl;E0
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_keycode.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_keycode.v
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_keycode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_keycode.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_leds_pio
+R11
+!i10b 1
+!s100 8LXnL7]Oj8=aAK=hY@Tz?0
+IZgMG<k1?VVaZL_W`6JDf63
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_leds_pio.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_leds_pio.v
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_leds_pio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_leds_pio.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_mm_interconnect_0
+R1
+!i10b 1
+!s100 Y<U@Xc>>UfHGdB_80CE6n3
+I<NVY^E;aJhGig_K^2K@H[1
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_mm_interconnect_0.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_mm_interconnect_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_mm_interconnect_0.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_mm_interconnect_0_avalon_st_adapter
+R1
+!i10b 1
+!s100 RLXQ2:74R5^[Jjccc]NRn2
+I2=S5[;_=7]>;`:K]PmL410
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_mm_interconnect_0_avalon_st_adapter.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_mm_interconnect_0_avalon_st_adapter.v
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_mm_interconnect_0_avalon_st_adapter.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_mm_interconnect_0_avalon_st_adapter_005
+R1
+!i10b 1
+!s100 giD?73obD3@E4QOljH;Qo2
+IP9^k]IVKMWae>hoUh0CNo1
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_mm_interconnect_0_avalon_st_adapter_005.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_mm_interconnect_0_avalon_st_adapter_005.v
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_mm_interconnect_0_avalon_st_adapter_005.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_mm_interconnect_0_avalon_st_adapter_005.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0
+Z17 !s110 1682561325
+!i10b 1
+!s100 <a4E=XiYWNYA58hPJWNAa1
+IB2]bZn40C3gzeWl[M54>D3
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+Z18 !s108 1682561325.000000
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu
+R17
+!i10b 1
+!s100 ]CTe]hJaM>SRkU@_d0Wgc1
+ICPnKf558jbL2d?Y<WMSQ61
+R2
+R0
+R10
+Z19 8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu.v
+Z20 FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu.v
+L0 2834
+R5
+r1
+!s85 0
+31
+R18
+Z21 !s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu.v|
+Z22 !s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_debug_slave_sysclk
+R17
+!i10b 1
+!s100 H[PiDnMLZRW9KHILobEX41
+IUHZJV3Emhf3YKYUN@k6Rd2
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+R4
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_debug_slave_tck
+R11
+!i10b 1
+!s100 SQT8D3@nn6c1;8@ihconR2
+IoZ0D8A13mWmChDQoa[UXP1
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+R4
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu_debug_slave_tck.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_debug_slave_wrapper
+R11
+!i10b 1
+!s100 _[P[khVHZX5=;3@IUCbIi2
+I=0K>A^`:KKfTd1z1CzIe<0
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_nios2_avalon_reg
+R17
+!i10b 1
+!s100 e^?lQC=J@:d1gKSPgH03:0
+IoPADU18R5E`BVT^Ha5XaE3
+R2
+R0
+R10
+R19
+R20
+L0 2023
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_nios2_oci
+R17
+!i10b 1
+!s100 d[B?J@kSZS3@EFPl9Xl6<2
+IXh?TaMCC9KVmg<ezE71YH1
+R2
+R0
+R10
+R19
+R20
+L0 2362
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_nios2_oci_break
+R17
+!i10b 1
+!s100 iLHK:2^BH4HOe4?Bh?:gV2
+IX9>1S2>XaNl6:34IPY[f]2
+R2
+R0
+R10
+R19
+R20
+L0 295
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+R17
+!i10b 1
+!s100 iO84VfbG1lR[UnEzEdTNf1
+ICL<JXlS2zFYccZT>lD>]F2
+R2
+R0
+R10
+R19
+R20
+L0 1265
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_nios2_oci_dbrk
+R17
+!i10b 1
+!s100 Y@iBV]im^ndSO=2?JHkh`2
+I5h5LbY7h4C:;`R4aBjoE^3
+R2
+R0
+R10
+R19
+R20
+L0 795
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_nios2_oci_debug
+R17
+!i10b 1
+!s100 >ZjHVN3FJ_T[2h=[U9eSN0
+I;0N2cJS1`Y_AERg8CEc?42
+R2
+R0
+R10
+R19
+R20
+L0 153
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_nios2_oci_dtrace
+R17
+!i10b 1
+!s100 Z[KTcoNmRzD_T6?eTZ59<3
+IRLa]AU=?DR5`;S48m?=R]1
+R2
+R0
+R10
+R19
+R20
+L0 1183
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_nios2_oci_fifo
+R17
+!i10b 1
+!s100 hjzGzf^C@eRTRJfM<R@K11
+I>F=WQd?IhedQV93EP:GA?2
+R2
+R0
+R10
+R19
+R20
+L0 1427
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+R17
+!i10b 1
+!s100 0n@O@oYB`Z9e7cCfVbbze0
+IFND>=]2``S9@T5Jl?ZXg[3
+R2
+R0
+R10
+R19
+R20
+L0 1380
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+R17
+!i10b 1
+!s100 U4GN9F6d7VfAIU`K6KFW:0
+IOJCS]khTkbVe;Ogl[ITZU2
+R2
+R0
+R10
+R19
+R20
+L0 1337
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_nios2_oci_im
+R17
+!i10b 1
+!s100 V>_j21lEhRWlH>M1C:KHm2
+ISl5jhB@8EVK88klh9KIBN3
+R2
+R0
+R10
+R19
+R20
+L0 1936
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_nios2_oci_itrace
+R17
+!i10b 1
+!s100 >i;??JGegkBF2L3=XRbJb3
+IIlc3>:Ha<H?4?>j;VReO43
+R2
+R0
+R10
+R19
+R20
+L0 982
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_nios2_oci_pib
+R17
+!i10b 1
+!s100 ]@F<CaJQ0M2M:ZO4OoVGN0
+I7cMmPWAAKUC291mec^Z_c3
+R2
+R0
+R10
+R19
+R20
+L0 1913
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_nios2_oci_td_mode
+R17
+!i10b 1
+!s100 ^QZf2JNB]LYUnYWJSKDG;0
+I:3FD?dZoN@a1:FT67PhdJ1
+R2
+R0
+R10
+R19
+R20
+L0 1115
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_nios2_oci_xbrk
+R17
+!i10b 1
+!s100 DIGYXJ^4TEi_omGbCRB2J3
+Ikzfe`MO5547ZXKR;Q3_T90
+R2
+R0
+R10
+R19
+R20
+L0 588
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_nios2_ocimem
+R17
+!i10b 1
+!s100 Ba57;9>O1OdjXb3[3HIE00
+IKN;zdP1d7?TeSL0ZPng3n3
+R2
+R0
+R10
+R19
+R20
+L0 2181
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_nios2_performance_monitors
+R17
+!i10b 1
+!s100 cKL;2fmEdiehA?VZi_lmK1
+Iaj4KE51e?GB2a[NYlPjcP3
+R2
+R0
+R10
+R19
+R20
+L0 2006
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_ociram_sp_ram_module
+R17
+!i10b 1
+!s100 10CZBP<HQGdV1`cGk>MND3
+IZh42863^^E<Dg^JKSF4mb3
+R2
+R0
+R10
+R19
+R20
+L0 2116
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_register_bank_a_module
+R17
+!i10b 1
+!s100 M?GNUTW<H7H2XMSdW=h[23
+IcP<i4Y1l1;[c@L5gz1PQI0
+R2
+R0
+R10
+R19
+R20
+R4
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_register_bank_b_module
+R17
+!i10b 1
+!s100 lEhMR<;oAi;N0j5AP5hDj2
+I^FcbM[zdzlBGoQ636Hm[02
+R2
+R0
+R10
+R19
+R20
+L0 87
+R5
+r1
+!s85 0
+31
+R18
+R21
+R22
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_nios2_gen2_0_cpu_test_bench
+R11
+!i10b 1
+!s100 Jdch]GQd2ZQUSTkH=CKMO2
+IOPo;k8OMT:zoJflmFG[EE2
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu_test_bench.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu_test_bench.v
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_nios2_gen2_0_cpu_test_bench.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_onchip_memory2_0
+R17
+!i10b 1
+!s100 ZoR>20R4^cf0WD9H`ncV12
+IALIed7nmBFG1mA^32BDGM0
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_onchip_memory2_0.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_onchip_memory2_0.v
+R4
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_onchip_memory2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_onchip_memory2_0.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_sdram
+R17
+!i10b 1
+!s100 b9CJSOSl8[SUd7g^FhB4k3
+I]<>OgDG1:5=BYmR533D6U1
+R2
+R0
+R10
+Z23 8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_sdram.v
+Z24 FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_sdram.v
+L0 159
+R5
+r1
+!s85 0
+31
+R18
+Z25 !s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_sdram.v|
+Z26 !s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_sdram.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_sdram_input_efifo_module
+R17
+!i10b 1
+!s100 0da:F^DCc4IFEB4jTAnIV1
+IYe1<:C]b<j[QY0F?E6a351
+R2
+R0
+R10
+R23
+R24
+R4
+R5
+r1
+!s85 0
+31
+R18
+R25
+R26
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_sdram_pll
+R17
+!i10b 1
+!s100 7CElE:ilZ?jVMl<4l:ncn0
+IMHO4;f<ezbJ<an:I^m_ec1
+R2
+R0
+R10
+Z27 8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_sdram_pll.v
+Z28 FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_sdram_pll.v
+L0 217
+R5
+r1
+!s85 0
+31
+R18
+Z29 !s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_sdram_pll.v|
+Z30 !s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_sdram_pll.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_sdram_pll_altpll_vg92
+R17
+!i10b 1
+!s100 LgezlbDEcO`DI6WQ9fQ6;1
+IMF1Hj^UQL?MZBkn@Ya1Rd3
+R2
+R0
+R10
+R27
+R28
+L0 130
+R5
+r1
+!s85 0
+31
+R18
+R29
+R30
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_sdram_pll_dffpipe_l2c
+R17
+!i10b 1
+!s100 9UDaMPM`@:o>[Z0fjWJo91
+ICP@fl@B[AinKWfHZDBRTj0
+R2
+R0
+R10
+R27
+R28
+L0 37
+R5
+r1
+!s85 0
+31
+R18
+R29
+R30
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_sdram_pll_stdsync_sv6
+R17
+!i10b 1
+!s100 EY@n<aXE_LW_PH59?oS8Q3
+IO8Z_?`h<2KfmXEmMEPi5[0
+R2
+R0
+R10
+R27
+R28
+L0 98
+R5
+r1
+!s85 0
+31
+R18
+R29
+R30
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_spi_0
+R17
+!i10b 1
+!s100 Do>FjjlHgRmdX:Ln7TWKR3
+I@[SOFQdHOjdJjjRQ;mOzG2
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_spi_0.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_spi_0.v
+L0 41
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_spi_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_spi_0.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_sysid_qsys_0
+R17
+!i10b 1
+!s100 i:LFn`MmlBmh8cljzFcjJ1
+IIPGX4[?hz3^bXR@ANaQB>0
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_sysid_qsys_0.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_sysid_qsys_0.v
+L0 34
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_sysid_qsys_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_sysid_qsys_0.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_timer_0
+R1
+!i10b 1
+!s100 Zj=6k;LCbFbHTBLc_DNlO0
+Imz@6d[I`3mm2`lTm6cDI42
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_timer_0.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_timer_0.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_timer_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_timer_0.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_usb_rst
+R1
+!i10b 1
+!s100 >a53C3<c2am2O8D@XDEg]3
+I[j9W8MRMG6?YbzJ;IQO8K2
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_usb_rst.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_usb_rst.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_usb_rst.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_usb_rst.v|
+!i113 1
+R7
+R8
+R9
+vbloonstd1_soc_x_disp
+R1
+!i10b 1
+!s100 3]Y41KJTjzUEIOEJ<P5nk0
+I;4i6<cQHe6LQclE_hkXT<1
+R2
+R0
+R10
+8C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_x_disp.v
+FC:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_x_disp.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_x_disp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|bloonstd1_soc|+incdir+C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules|C:/Users/shrey/Documents/GitHub/BloonsTD1/bloonstd1_soc/synthesis/submodules/bloonstd1_soc_x_disp.v|
+!i113 1
+R7
+R8
+R9
