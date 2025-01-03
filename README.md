@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is a fully functional **Bloons Tower Defense** game, created from scratch using **System Verilog**. The game simulates bloons moving along a path while the player defends against them using a character that launches darts to pop the bloons. The project was developed over the course of **May 2023 - June 2023** and features various game mechanics and an FPGA-based USB communication interface for connectivity.
+This project is a fully functional **Bloons Tower Defense** game, created from scratch using **System Verilog**. The game simulates bloons moving along a path while the player defends against them using a character that launches darts to pop the bloons. The project was developed over the course of **April 2023 - May 2023** and features various game mechanics and an FPGA-based USB communication interface for connectivity.
 
 ## Key Features
 
